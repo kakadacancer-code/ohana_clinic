@@ -1,0 +1,315 @@
+body {
+    
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+
+.contact-us {
+    height: 150px;
+    background-color: #0084ff;
+    display: block;
+    padding-left: 10%;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+.back-home a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    transition: 1s;
+}
+.back-home a:hover{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.title-contact {
+    color: #ffffff;
+    font-size: 42px;
+}
+
+
+
+
+
+.box_tittle_midle-Contact_Us{
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+}
+.tittle_midle-Contact_Us{
+    margin: auto;  
+}
+.tittle_midle-Contact_Us h1{
+    color: blue;
+    font-size: 48px;
+    transition: 1s;
+}
+.tittle_midle-Contact_Us h1:hover{
+    color: rgb(6, 6, 117);
+    font-size: 48px;
+    transition: 1s;
+}
+
+
+.ittle_midle-Contact_Us_p{
+    margin: auto;
+}
+.ittle_midle-Contact_Us_p p{
+    font-size: 18px;
+}
+.box_ittle_midle-Contact_Us_p{
+    display: flex;
+}
+
+
+
+
+
+
+.box_Customer_Care_contact_us{
+    display: flex;
+}
+.Customer_Care_contact_us{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+.Customer_Care_contact_us_real{
+    display: block;
+    border: #cbedfa solid;
+    padding: 50px ;
+    transition: 1s;
+    background-color: #ffffff;
+}
+.Customer_Care_contact_us_real:hover{
+    display: block;
+    border: #feffff solid;
+    padding: 70px ;
+    transition: 1s;
+    background-color: #ffffff;
+}
+
+
+.box_text_contact_us{
+    display: flex;
+}
+.text_contact_us{
+    display: block;
+    height: auto;
+
+}
+.h6_contomer_car{
+    display: flex;
+}
+.cart__contact_{
+    margin: auto;
+}
+@media (max-width :386) {
+    .cart__contact_{
+        margin: auto;
+    }
+    .cart__contact_ b{
+        text-align: center;
+    }
+}
+.cart__contact_a{
+    margin: auto;
+}
+.cart__contact_a a{
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    transition: 1s;
+}
+
+.cart__contact_ b{
+    font-size: 24px;
+}
+.cart__contact_ p{
+    text-align: center;
+}
+.box_icpn_contact{
+    display: flex;
+}
+.icon_contact{
+    margin: auto;    
+}
+
+
+
+
+
+
+.box_tittle_midle-Contact_Us_our_branches{
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+}
+
+.tittle_midle-Contact_Us_our_branches{
+    margin: auto;  
+}
+.tittle_midle-Contact_Us_our_branches h1{
+    color: blue;
+    font-size: 48px;
+    transition: 1s;
+    padding: 0px;
+}
+.tittle_midle-Contact_Us_our_branches h1:hover{
+    color: rgb(199, 199, 199);
+    font-size: 50px;
+    transition: 1s;
+}
+
+
+
+
+.box_Customer_Care_contact_us_location{
+    display: grid;
+    margin-top: 50px;
+}
+.Customer_Care_contact_us_location{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.box_map_contact{
+    display: flex;
+}
+.map_contact{
+    margin: auto;
+    background-color: rgb(136, 138, 224);
+    color: #ffffff;
+    border-radius: 30px;
+    width: 100px;
+    display: flex;
+    padding: 0px;
+    transition: 1s;
+    margin-top: 0px;
+}
+.map_contact:hover{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 30px;
+    width: 100px;
+    display: flex;
+    padding: 0px;
+    transition: 1s;
+}
+.box_box_map_contact{
+    margin: auto;
+}
+.box_box_map_contact h5{
+    font-size: 15px;
+}
+.box_box_map_contact a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2f304b;
+    transition: 1s;
+}
+.box_box_map_contact a:hover{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    transition: 1s;
+}
+.box__logo__of__clinic{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: 100px;
+}
+
+.logo___photo___logo__clinic{
+    margin-left: 0px;
+}
+.logo__of__clinic_zin{
+    margin-top: 250px;
+    width: 500px;
+}
+.contact_____form___contact{
+    display: block;
+}
+.contact_____form___contact h3{
+    color: #037a97;
+    font-size: 32px;
+}
+.contact_____form___contact h1{
+    font-size: 48px;
+    color: #0084ff;
+}
+.contact_____form___contact p{
+    font-size: 18px;
+    width: 700px;
+}
+.fillin__your__imformation{
+    display: block;
+}
+.two__form__contact{
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    font-size: 18px;
+}
+.form--contact--form-1{
+    display: block;
+    padding: 20px 0;
+    font-size: 18px;
+}
+.label__for__label__input__contect{
+    padding: 40px;
+    width: 500px;
+    transition: 1s;
+    transform: scale();
+    font-size: 18px;
+    border-color: #e0e0e0;
+}
+.label__for__label__contect_2{
+    padding: 12px;
+    width: 253px;
+    font-size: 18px;
+    border-color: #e0e0e0;
+}
+.label__for__label__contect{
+    padding: 12px;
+    width: 553px;
+    font-size: 18px;
+    border-color: #e0e0e0;
+}
+.buttom__contact__form{
+    padding: 20px;
+    background-color: #0084ff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px; 
+    color: #ffffff;
+    font-size: 18px; 
+    transform: scale();  
+    transition: 0.5s;
+}
+.buttom__contact__form:hover{
+    padding: 20px;
+    background-color: #0084ff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px; 
+    color: #ffffff;
+    font-size: 18px;   
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.google_map{
+    margin-top: 10px;
+}

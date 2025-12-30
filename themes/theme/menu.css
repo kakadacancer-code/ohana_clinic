@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --title-color: #1db9f2;
+    --text-color: #444;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: var(--bg-color);
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.menu-bar img {
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.platform {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.platform a {
+    margin-left: 15px;
+    color: #f0f0f0;
+    text-decoration: none;
+    background-color: #45849b;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.platform a:hover {
+    background-color: #2323a7;
+}
+
+nav.navigation {
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav.navigation ul li a {
+    text-decoration: none;
+    color: var(--text-1-color);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+nav.navigation ul li a:hover {
+    background-color: #00a8e8;
+    color: #ffffff;
+}
